@@ -1,13 +1,64 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  /* font-size: 62.5%; */
+  font-family: sans-serif;
+  line-height: 1;
+  background-color: black;
+  color: white;
 }
+
+/* .container {
+  width: 140rem;
+  height: 140rem;
+  margin: auto;
+} */
+
+/* header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+} */
+
+/* header h2 {
+  font-size: 4rem;
+} */
+
+/* li {
+  display: inline-block;
+  padding-left: 2rem;
+  font-size: 2rem;
+} */
+
+/* .hero {
+  background-color: red;
+  width: 140rem;
+  height: calc(100vh - 10rem);
+} */
+
+/* .main-name {
+  background-color: blue;
+  width: 70rem;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+} */
+/* .main-name h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+} */
+
+/* .main-name h3 {
+  font-size: 2.5rem;
+} */
