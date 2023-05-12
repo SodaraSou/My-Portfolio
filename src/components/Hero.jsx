@@ -8,7 +8,7 @@ import twitterImage from "../images/twitter.svg";
 function Hero() {
   return (
     <section id="hero">
-      <div className="flex flex-col-reverse md:flex-row px-10 md:px-0 justify-center items-center space-y-14 md:space-y-0 md:space-x-5">
+      <div className="flex flex-col-reverse md:flex-row px-10 md:py-10 justify-center items-center space-y-14 md:space-y-0 md:space-x-5">
         <div className="space-y-10 md:space-y-14 text-center md:text-left mt-10 md:mt-0">
           <div>
             <h1 className="text-5xl md:text-8xl mb-5 font-bold">
