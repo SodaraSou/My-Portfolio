@@ -8,7 +8,7 @@ import twitterImage from "../images/twitter.svg";
 function Hero() {
   return (
     <section id="hero">
-      <div className="flex flex-col-reverse md:flex-row px-10 md:py-10 justify-center items-center space-y-14 md:space-y-0 md:space-x-5">
+      <div className="flex flex-col-reverse md:flex-row p-10 justify-center items-center space-y-14 md:space-y-0 md:space-x-5">
         <div className="space-y-10 md:space-y-14 text-center md:text-left mt-10 md:mt-0">
           <div>
             <h1 className="text-5xl md:text-8xl mb-5 font-bold">
@@ -17,14 +17,6 @@ function Hero() {
             <h2 className="text-2xl md:text-4xl">
               I'm into <span>Web Development!</span>
             </h2>
-          </div>
-          <div>
-            <a
-              href="#"
-              className="text-xl md:text-2xl bg-daraOrange px-8 py-3 rounded-full text-white"
-            >
-              Download Resume
-            </a>
           </div>
           <div className="space-x-2 md:space-x-5">
             <a
