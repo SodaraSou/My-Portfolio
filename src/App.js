@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <div className="max-w-7xl mx-auto flex-1">
+      <div className="max-w-7xl mx-auto">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Project />} />
