@@ -2,15 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
 
 html {
-  /* font-size: 62.5%; */
-  font-family: sans-serif;
-  background-color: black;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
   color: white;
 }
 
@@ -19,50 +20,11 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-/* .container {
-  width: 140rem;
-  height: 140rem;
-  margin: auto;
-} */
 
-/* header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem;
-} */
+#hero {
+  background-color: #f9f9f9;
+}
 
-/* header h2 {
-  font-size: 4rem;
-} */
-
-/* li {
-  display: inline-block;
-  padding-left: 2rem;
-  font-size: 2rem;
-} */
-
-/* .hero {
-  background-color: red;
-  width: 140rem;
-  height: calc(100vh - 10rem);
-} */
-
-/* .main-name {
-  background-color: blue;
-  width: 70rem;
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  line-height: 1.5;
-} */
-/* .main-name h1 {
-  font-size: 5rem;
-  margin-bottom: 2rem;
-} */
-
-/* .main-name h3 {
-  font-size: 2.5rem;
-} */
+#project {
+  background-color: #f9f9f9;
+}
