@@ -5,7 +5,7 @@ function About() {
     <section id="about" className="p-10 py-20 md:p-60 text-black">
       <div className="max-w-5xl mx-auto">
         <div className="flex flex-col md:flex-row">
-          <div className="text-center md:text-left mb-5 md:mr-20 flex flex-col md:w-[512px]">
+          <div className="text-center md:text-left mb-5 md:mr-20  md:w-[512px]">
             <h1 className="text-3xl mb-5">About me</h1>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse
@@ -16,7 +16,7 @@ function About() {
               ex dolore nemo quisquam nesciunt.
             </p>
           </div>
-          <div>
+          <div className="flex items-center">
             <img src={programming} alt="programming" className="md:w-[512px]" />
           </div>
         </div>

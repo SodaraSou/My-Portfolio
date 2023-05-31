@@ -6,6 +6,9 @@ import twitter from "./twitter.svg";
 import daralogo from "./DR (1).svg";
 import programming from "./User Browsing.png";
 import project from "./Project.png";
+import phone from "./phone-solid.svg";
+import mail from "./envelope-solid.svg";
+import location from './location-dot-solid.svg'
 
 export {
   facebook,
@@ -16,4 +19,7 @@ export {
   programming,
   daralogo,
   project,
+  phone,
+  mail,
+  location,
 };
