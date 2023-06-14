@@ -2,7 +2,7 @@ import { programming } from "../images";
 
 function About() {
   return (
-    <section id="about" className="p-10 py-20 md:p-60 text-black">
+    <section id="about" className="p-10 py-20 xl:p-60 text-black">
       <div className="max-w-5xl mx-auto">
         <div className="flex flex-col md:flex-row">
           <div className="text-center md:text-left mb-5 md:mr-20  md:w-[512px]">
