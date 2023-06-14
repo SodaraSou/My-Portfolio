@@ -7,6 +7,7 @@ function App() {
       <Hero />
       <About />
       <Project />
+      <Contact />
       <Footer />
     </>
   );
