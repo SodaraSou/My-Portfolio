@@ -11,12 +11,12 @@ function Contact() {
             <h1 className="mb-5">Phone</h1>
             <p>012-354-987</p>
           </div> */}
-          <div className="p-20 shadow-xl rounded-xl flex flex-col items-center w-full md:w-auto">
+          <div className="p-20 shadow-xl rounded-xl flex flex-col items-center w-full md:w-1/2">
             <img src={mail} alt="mail" className="w-10 md:w-11 mb-3" />
             <h1 className="mb-5">Email</h1>
             <p>sodarasou168@gmail.com</p>
           </div>
-          <div className="p-20 shadow-xl rounded-xl flex flex-col items-center w-full md:w-auto">
+          <div className="p-20 shadow-xl rounded-xl flex flex-col items-center w-full md:w-1/2">
             <img
               src={location}
               alt="location"
