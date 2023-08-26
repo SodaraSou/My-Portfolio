@@ -13,7 +13,7 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="w-full h-screen md:flex md:items-center text-black mt-[80px] md:mt-0"
+      className="h-screen text-black mt-[100px] md:mt-0 md:flex md:items-center md:justify-center"
     >
       <div className="max-w-5xl md:mx-auto p-10 flex flex-col-reverse md:flex-row justify-center items-center">
         <div className="text-center md:text-left">
