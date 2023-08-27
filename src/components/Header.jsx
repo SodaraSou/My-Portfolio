@@ -4,9 +4,9 @@ import { navLinks } from "../constants";
 function Header() {
   return (
     <nav className="w-full bg-white text-black shadow-lg font-bold fixed top-0 left-0 z-100">
-      <div className="max-w-7xl mx-auto p-[20px] md:p-[30px] flex justify-between md:items-center">
+      <div className="max-w-7xl mx-auto p-[20px] md:p-[30px] flex justify-between items-center">
         <img src={daralogo} alt="logo" className="h-10" />
-        <div className="xl:flex flex-col text-lg space-y-5 xl:space-y-0 xl:space-x-10 xl:flex-row hidden">
+        <div className="hidden xl:block space-x-10 text-xl">
           {navLinks.map((nav, index) => (
             <a
               href={nav.id}
