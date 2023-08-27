@@ -22,7 +22,7 @@ function Project() {
         </div> */}
         <div className="flex flex-col-reverse md:flex-col items-center">
           <img src={project} alt="programming" className="md:w-[512px] md:mb-10" />
-          <h1 className="text-3xl mb-10 md:mb-0 md:text-5xl">
+          <h1 className="text-3xl mb-10 md:mb-0 md:text-5xl font-bold">
             Project Coming Soon...
           </h1>
         </div>
