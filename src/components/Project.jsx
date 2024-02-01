@@ -1,30 +1,53 @@
-import { project } from "../images";
+import ComputerTopia from "../images/computertopia.store.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import Html from "../images/icons8-html.svg";
+import Css from "../images/icons8-css.svg";
+import Js from "../images/icons8-js.svg";
+import Tailwind from "../images/icons8-tailwind-css.svg";
+import ReactJs from "../images/icons8-react.svg";
+import Firebase from "../images/icons8-firebase.svg";
 
 function Project() {
   return (
-    <section id="project" className="p-10 py-20 xl:p-60 text-black">
+    <section id="project" className="p-10 text-black">
       <div className="max-w-5xl mx-auto">
-        {/* <div className="flex flex-col md:flex-row">
-          <div className="text-center md:text-left mb-5 md:mr-20 md:w-[512px]">
-            <h1 className="text-3xl mb-5">Project</h1>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse
-              optio, eius ipsa dicta alias ipsam labore, commodi explicabo,
-              voluptas maiores ullam autem similique! Aliquid dolores ex quis
-              similique, nulla animi corrupti amet porro architecto, ipsa totam
-              est id. Praesentium, porro est. Excepturi, nobis? Illo inventore,
-              ex dolore nemo quisquam nesciunt.
+        <h1 className="text-4xl text-center md:text-left  font-bold mb-10">
+          Project
+        </h1>
+        <div className="flex flex-col md:flex-row gap-10">
+          <div className="w-full md:w-3/5">
+            <div className="h-[400px] overflow-hidden">
+              <img
+                src={ComputerTopia}
+                alt="computerTopia"
+                className="w-full transform transition-all duration-500 scrolling-image"
+              />
+            </div>
+          </div>
+          <div className="w-full md:w-2/5 text-center flex flex-col gap-10">
+            <h2 className="text-2xl font-bold">Computer Topia</h2>
+            <p className="font-medium text-gray-400">
+              Computer Topia is an online store website that allows users to
+              view and buy technology products. The website provide an interface
+              for user to search products, sort products, filter products based
+              on categories, authentication, add items to cart, checkout items,
+              and tracking ordered.
             </p>
+            <div className="flex justify-center items-center gap-4">
+              {/* <h2 className="text-lg font-bold">Tech Stack:</h2> */}
+              <img src={ReactJs} alt="ReactJs" />
+              <img src={Tailwind} alt="Tailwind" />
+              <img src={Firebase} alt="Firebase" />
+            </div>
+            <a
+              href="https://computertopia.store/"
+              target="_blank"
+              className="hover:underline font-medium"
+            >
+              Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+            </a>
           </div>
-          <div className="flex items-center">
-            <img src={project} alt="programming" className="md:w-[512px]" />
-          </div>
-        </div> */}
-        <div className="flex flex-col-reverse md:flex-col items-center">
-          <img src={project} alt="programming" className="md:w-[512px] md:mb-10" />
-          <h1 className="text-3xl mb-10 md:mb-0 md:text-5xl font-bold">
-            Project Coming Soon...
-          </h1>
         </div>
       </div>
     </section>

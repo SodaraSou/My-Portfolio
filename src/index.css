@@ -29,3 +29,11 @@ body {
 #project {
   background-color: #f9f9f9;
 }
+
+.scrolling-image {
+  transition: transform 3s ease-in-out;
+}
+
+.scrolling-image:hover {
+  transform: translateY(calc(-100% + 400px));
+}

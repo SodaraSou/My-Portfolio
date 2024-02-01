@@ -4,10 +4,12 @@ function App() {
   return (
     <>
       <Header />
-      <Hero />
-      <About />
-      <Project />
-      <Contact />
+      <main>
+        <Hero />
+        <About />
+        <Project />
+        <Contact />
+      </main>
       <Footer />
     </>
   );
