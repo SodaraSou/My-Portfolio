@@ -3,22 +3,22 @@ import { navLinks } from "../constants";
 
 function Header() {
   return (
-    <nav className="w-full bg-white text-black shadow-lg font-bold fixed top-0 left-0 z-100">
-      <div className="max-w-7xl mx-auto p-[20px] md:p-[30px] flex justify-between md:items-center">
-        <img src={daralogo} alt="logo" className="h-10" />
-        <div className="flex flex-col text-lg space-y-5 md:space-y-0 md:space-x-10 md:flex-row hidden md:block">
+    <header className="w-full bg-white text-black shadow-lg fixed z-40">
+      <div className="max-w-7xl mx-auto flex justify-between items-center p-4 xl:px-0 xl:py-4">
+        <img src={daralogo} alt="Logo" className="w-10" />
+        <nav className="hidden xl:flex gap-10">
           {navLinks.map((nav, index) => (
             <a
               href={nav.id}
-              className="hover:text-daraOrange cursor-pointer"
+              className="hover:text-daraOrange cursor-pointer font-bold"
               key={index}
             >
               {nav.title}
             </a>
           ))}
-        </div>
+        </nav>
       </div>
-    </nav>
+    </header>
   );
 }
 
