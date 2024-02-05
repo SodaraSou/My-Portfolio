@@ -18,7 +18,7 @@ function Hero() {
       <div className="max-w-5xl md:mx-auto p-10 flex flex-col-reverse md:flex-row justify-center items-center gap-10 md:gap-0">
         <div className="flex flex-col text-center md:text-left gap-4 w-full md:w-3/5">
           <h1 className="text-5xl md:text-7xl font-bold">
-            Hi there, I'm <span className="text-daraOrange">Sodara</span> Sou
+            Hello, I'm <span className="text-daraOrange">Sodara</span> Sou
           </h1>
           <h2 className="text-2xl md:text-4xl">Web Developer</h2>
           <div className="flex justify-center md:justify-start gap-4">

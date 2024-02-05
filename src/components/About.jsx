@@ -3,7 +3,7 @@ import Tech from "./Tech";
 
 function About() {
   return (
-    <section id="about" className="p-10 text-black">
+    <section id="about" className="p-10 md:h-screen md:flex text-black">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-10">
         <div className="flex flex-col justify-center text-center md:text-left w-full md:w-1/2">
           <h1 className="text-4xl mb-10 md:mb-4 font-bold">About me</h1>
