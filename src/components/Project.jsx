@@ -1,16 +1,18 @@
 import ComputerTopia from "../images/computertopia.store.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
-import Html from "../images/icons8-html.svg";
-import Css from "../images/icons8-css.svg";
-import Js from "../images/icons8-js.svg";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { github } from "../images";
 import Tailwind from "../images/icons8-tailwind-css.svg";
 import ReactJs from "../images/icons8-react.svg";
 import Firebase from "../images/icons8-firebase.svg";
 
 function Project() {
   return (
-    <section id="project" className="p-10 text-black">
+    <section
+      id="project"
+      className="p-10 text-black md:flex md:flex-col md:h-screen md:justify-center"
+    >
       <div className="max-w-5xl mx-auto">
         <h1 className="text-4xl text-center md:text-left  font-bold mb-10">
           Project
@@ -40,13 +42,22 @@ function Project() {
               <img src={Tailwind} alt="Tailwind" />
               <img src={Firebase} alt="Firebase" />
             </div>
-            <a
-              href="https://computertopia.store/"
-              target="_blank"
-              className="hover:underline font-medium"
-            >
-              Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-            </a>
+            <div className="flex justify-center gap-10">
+              <a
+                href="https://github.com/SodaraSou/Computer-Topia-Store"
+                target="_blank"
+                className="hover:underline font-medium"
+              >
+                Code <FontAwesomeIcon icon={faGithub} />
+              </a>
+              <a
+                href="https://computertopia.store/"
+                target="_blank"
+                className="hover:underline font-medium"
+              >
+                Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+              </a>
+            </div>
           </div>
         </div>
       </div>
